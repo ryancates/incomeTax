@@ -1,0 +1,197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947A7914134FBF4B003B3FC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 947A7913134FBF4B003B3FC0 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		947A790D134FBF4A003B3FC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		947A790F134FBF4A003B3FC0 /* incomeTax */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = incomeTax; sourceTree = BUILT_PRODUCTS_DIR; };
+		947A7913134FBF4B003B3FC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		947A7915134FBF4B003B3FC0 /* incomeTax.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = incomeTax.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947A790C134FBF4A003B3FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947A7904134FBF49003B3FC0 = {
+			isa = PBXGroup;
+			children = (
+				947A7912134FBF4A003B3FC0 /* incomeTax */,
+				947A7910134FBF4A003B3FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947A7910134FBF4A003B3FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947A790F134FBF4A003B3FC0 /* incomeTax */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947A7912134FBF4A003B3FC0 /* incomeTax */ = {
+			isa = PBXGroup;
+			children = (
+				947A7913134FBF4B003B3FC0 /* main.cpp */,
+				947A7915134FBF4B003B3FC0 /* incomeTax.1 */,
+			);
+			path = incomeTax;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947A790E134FBF4A003B3FC0 /* incomeTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947A7918134FBF4B003B3FC0 /* Build configuration list for PBXNativeTarget "incomeTax" */;
+			buildPhases = (
+				947A790B134FBF4A003B3FC0 /* Sources */,
+				947A790C134FBF4A003B3FC0 /* Frameworks */,
+				947A790D134FBF4A003B3FC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = incomeTax;
+			productName = incomeTax;
+			productReference = 947A790F134FBF4A003B3FC0 /* incomeTax */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947A7906134FBF49003B3FC0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 947A7909134FBF49003B3FC0 /* Build configuration list for PBXProject "incomeTax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 947A7904134FBF49003B3FC0;
+			productRefGroup = 947A7910134FBF4A003B3FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947A790E134FBF4A003B3FC0 /* incomeTax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947A790B134FBF4A003B3FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947A7914134FBF4B003B3FC0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		947A7916134FBF4B003B3FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		947A7917134FBF4B003B3FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		947A7919134FBF4B003B3FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		947A791A134FBF4B003B3FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947A7909134FBF49003B3FC0 /* Build configuration list for PBXProject "incomeTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947A7916134FBF4B003B3FC0 /* Debug */,
+				947A7917134FBF4B003B3FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947A7918134FBF4B003B3FC0 /* Build configuration list for PBXNativeTarget "incomeTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947A7919134FBF4B003B3FC0 /* Debug */,
+				947A791A134FBF4B003B3FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947A7906134FBF49003B3FC0 /* Project object */;
+}
